@@ -1,0 +1,74 @@
+h2{
+    font-size:200%;
+    color: black;
+    text-align: center;
+}
+
+body{
+    background-color:#e0ffff;
+}
+
+main{
+    font-weight:bold; 
+    background-color:#87cefa;
+    padding : 20px ;
+    border-radius: 20px;
+}
+
+.before{
+    font-weight:bold; 
+    text-align: center;
+}
+
+.arrow{
+    font-size:300%;
+    text-align: center;
+    margin : 20px ;
+}
+
+.after{
+    text-align: center; 
+}
+
+.result{
+    text-align: center;
+    margin : 20px ; 
+    background-clip: content-box;
+}
+
+.result_label{
+    font-size:150%;
+}
+
+.text{
+    font-size:100%;
+}
+
+select:focus {
+    background:#afeeee;
+}
+
+select{
+    width:20%;
+    height:auto;
+    font-size:120%;
+}
+
+input{
+    width:25%;
+    height:auto;
+    font-size:180%;
+}
+
+
+/* ここからレスポンシブ */
+@media screen and (max-width:480px) {
+select{
+    font-size:100%;
+}
+
+input{
+    font-size:150%;
+}
+
+}
